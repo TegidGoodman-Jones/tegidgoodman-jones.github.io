@@ -3224,3 +3224,36 @@ input, select, textarea {
 			}
 
 	}
+
+
+/* FUTURE EDITS */
+
+#html {
+color: #f63900;
+}
+
+#css {
+color: #006bbd;
+}
+
+#js {
+color: #faca00;
+font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+#py {
+color: #FFe32f;
+font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+#shell {
+font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+color: black;
+}
+
+
+#git {
+color: #23292f;
+}
+
+
