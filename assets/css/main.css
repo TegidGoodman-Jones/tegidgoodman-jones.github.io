@@ -3257,9 +3257,10 @@ color: #23292f;
 }
 
 #java {
-  background: -webkit-linear-gradient(#f99f2d, #007595);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	font-size: inherit;
+	background: -webkit-linear-gradient(#f99f2d, #007595);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 
