@@ -3253,10 +3253,12 @@ color: black;
 
 
 #git {
+font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 color: #23292f;
 }
 
 #java {
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 	font-size: inherit;
 	background: -webkit-linear-gradient(#f99f2d, #007595);
 	-webkit-background-clip: text;
