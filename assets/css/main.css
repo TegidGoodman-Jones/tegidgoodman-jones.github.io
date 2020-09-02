@@ -3228,6 +3228,13 @@ input, select, textarea {
 
 /* FUTURE EDITS */
 
+
+.proj-des p {
+	margin-bottom: 1.2rem;
+}
+
+/* languages */
+
 #html {
 color: #f63900;
 }
@@ -3264,5 +3271,37 @@ color: #23292f;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+/* secoandary page */
+
+#breadcrumbs a {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+#breadcrumbs a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E %3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
+
+.second-image {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#details p {
+	font-size: 16pt;
+}
+
+#details h2 {
+	font-size: 20pt;
+}
+
 
 
