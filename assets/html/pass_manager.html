@@ -31,24 +31,29 @@
 
 
 
-				<img src="../../images/Projects/uni_req.png" class="image second-image fit">
+				<img src="../../images/Projects/cyber_network.jpg" class="image second-image fit">
 				<hr>
 				<div id="details">
-					<h2>University entry requirements app</h2>
+					<h2>Password manager</h2>
 					
-					<p>This was my first python project. It is a web scraping app that	gets the entry requirements, in the form of UCAS points, it then converts the UCAS points into A-level grades. It also gets the course type and University name.</p>
-					<br>
+					<p>This is an app I primarily made for personal use. We all have so many passwords that its very easy to lose them or misplace the post-it-note where your wrote it down. I, myself, struggle with this problem, so I decided to make a suitable place to store all my passwords. This is also a great opportunity to learn SQL and how to use it with python.</p>
+					
 
-					<p>I made this app with the intention of creating a GUI (Graphical user interface) for it. I decided to use a python modulue called TKinter to create the GUI. Because Tkinter is a simple module designed for small scale projects it does slow down the performance of the app. So when I use it I run the python file without the GUI to maxamise performance, but when I let my friends and school staff use it, I give them the GUI.</p>
+					<p>I wrote this app with functional programming in mind, therefore it is very structured and is designed to have a very tidy main loop. </p>
 
-					<p>It uses the 'beautiful soup' and 'requests' modules to web-scrape the informaion from a reliable university guide and returns it to the app. The app then prints them in a readable format for the reader.</p>
-					<p>There is also a functionality where you can export the results into a csv file, for use in excel. This is a useful feature that I wished all data scraping applications used as it allows the user to share results in a user friendly file. And also give the option to manipulate the data</p>
+					<p>It starts off creating a database and creating tables within this database. The app then gives the user the option of adding passwords, deleting passwords, reading passwords and updating them.</p>
+
+					<p>I used the SQLite3 module to interact with the database, this allows me to have complete control of the database and sql from the python file.</p>
+
+					<p>The encryption of the passwords was done from a custom module which relied on the cryptography python module. I got to learn about encryption keys through doing this and I gained a lot of knowledge in the area.</p>
+
+					<p>I am currently using this as a full time password manager and I don’t think, from using it that there are many improvements that it needs.</p>
 				</div>
 
 				<hr>
 
 				<ul class="actions">
-					<li><a href="https://github.com/TegidGoodman-Jones/uni_requirements" target="_blank" class="button">Github Repository</a></li>
+					<li><a href="https://github.com/TegidGoodman-Jones/password_manager" target="_blank" class="button">Github Repository</a></li>
 				</ul>
 
 			</div>

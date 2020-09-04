@@ -3231,6 +3231,11 @@ input, select, textarea {
 
 /* languages */
 
+.language {
+	padding-bottom: 0rem;
+	padding-top: 0rem;
+}
+
 #html {
 color: #f63900;
 }
@@ -3293,10 +3298,12 @@ color: #23292f;
 
 #details p {
 	font-size: 16pt;
+	color: #787878;
 }
 
 #details h2 {
-	font-size: 20pt;
+	font-size: 21pt;
+	color: #a2a2a2;
 }
 
 

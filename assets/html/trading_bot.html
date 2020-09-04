@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tegid Goodman-Jones: Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="../../index.html" class="image"><img class="image avatar" src="../../images/pro_pic.jpg" alt="" /></a>
+					<h1><strong>Tegid Goodman-Jones</strong> - Portfolio</h1>
+
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+			
+				<div id="breadcrumbs">
+					<h4>
+						<a href="../../index.html">Home</a>
+						/
+						<a href="#">Project</a>
+					</h4>
+					<hr>
+				</div>
+
+
+
+				<img src="../../images/Projects/stocks.jpg" class="image second-image fit">
+				<hr>
+				<div id="details">
+					<h2>Trading simulator</h2>
+					
+					<p>This app is designed to be an algorithm that would allow me to experiment with various different trading straggles. It takes past information from an API and decides when to buy/sell stock. But it uses a virtual currency controlled from within the code.</p>
+					
+
+					<p>I made this app because I have an interest in finance and wanted to learn more about investing. I initially used investopedia to research various stratagies for buy and selling stock, I found a solution that I liked where the algorithm used an API to to get the lowest and highest average for the month, this then gave me the points at which it was sensible to buy/sell.</p>
+
+					<p>I used an API called Alpha Vantage, this was recommended by StackOverflow and had great reviews. Using this API allowed me to gain an understanding on how to interact with APIs in general. I learn about HTTP methods and how to use them, and I learned about API keys and how to handle/manage data from an API.</p>
+
+					<p>A challenge I encountered was that Alpha Vantage was an API for the US stock market and so the UKs. This meant I had to run the app at unusual hours for me. I decided to learn how to use the Date Time python module so that the app would end and start automatically.</p>
+
+					<p>I wanted to log the transactions that took place so I created a csv file that would be appended when a sale was made. I also created a csv that would record the day-by-day statistics of the algorithm.</p>
+
+					<p>My plan going forwards is to collect data from the algorithm and upload a table to Github explaining the success rate of the algorithm and various other statistics.</p>
+				</div>
+
+				<hr>
+
+				<ul class="actions">
+					<li><a href="https://github.com/TegidGoodman-Jones/Trading_bot" target="_blank" class="button">Github Repository</a></li>
+				</ul>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+
+						<li><a href="https://github.com/TegidGoodman-Jones" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:nu@tegid.org" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Tegid Goodman-Jones</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../js/jquery.min.js"></script>
+			<script src="../js/browser.min.js"></script>
+			<script src="../js/breakpoints.min.js"></script>
+			<script src="../js/util.js"></script>
+			<script src="../js/main.js"></script>
+
+	</body>
+</html>
